@@ -385,6 +385,7 @@ body{
     align-items: center;
     gap: 11px;
     padding: 18px 17px 20px;
+	 transition: .2s ease-in-out;
 }
 
 .button__buy {
@@ -968,11 +969,11 @@ body{
 
     svg{
         fill: #fff;
-
+		  transition: .2s ease-in-out;
          @media(any-hover: hover){
             &:hover{
                 fill: #FF1313;
-                transform: scale(1.5);
+                transform: scale(1.3);
             }
             }
     }
